@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Happy Birthday Mahati</title>
-<meta name="description" content="Happy Birthday Mahati, with love from Sneha, Pranav, Chirag and Gaurav">
+<meta name="description" content="Happy Birthday Mahati, with love from Sneha, Pranav, Chirag, Gaurav and Bhavya">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
@@ -182,7 +182,8 @@
   .wishes-sec{background:
       radial-gradient(circle at 15% 85%, rgba(194,24,91,.3), transparent 45%),
       var(--wine)}
-  .wishes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px}
+  .wishes{display:flex;flex-wrap:wrap;justify-content:center;gap:34px 24px}
+  .wishes .wish{flex:0 1 300px}
   .wish{
     position:relative;padding:30px 24px 26px;border-radius:22px;
     background:linear-gradient(165deg,#fff6ec,#fde3e8);color:var(--ink);
@@ -387,13 +388,18 @@
         <p>Happy birthday, Mahati! Wishing you peace, happiness and success in everything you do. Enjoy your special day to the fullest!</p>
         <div class="from">Gaurav</div>
       </div>
+      <div class="wish reveal">
+        <span class="heart"><svg class="ic"><use href="#i-cake"/></svg></span>
+        <p>Happy birthday, Mahati! Wishing you a year as sweet as your favourite dessert, full of love, laughter and lovely surprises. Have a wonderful day!</p>
+        <div class="from">Bhavya</div>
+      </div>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="script">Happy Birthday Mahati</div>
-  <p>With love from Sneha, Pranav, Chirag and Gaurav <svg class="ic"><use href="#i-heart"/></svg></p>
+  <p>With love from Sneha, Pranav, Chirag, Gaurav and Bhavya <svg class="ic"><use href="#i-heart"/></svg></p>
 </footer>
 
 <script>
